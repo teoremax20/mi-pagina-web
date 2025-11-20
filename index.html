@@ -2,9 +2,49 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Mi Web Personal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Profesional</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>¡Hola! Mi sitio web está en construcción 🚧</h1>
+  <header>
+    <h1>Tu Nombre</h1>
+    <p>Especialista en [tu área]</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Sobre mí</h2>
+    <p>Breve descripción personal y profesional.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Servicio 1</li>
+      <li>Servicio 2</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
