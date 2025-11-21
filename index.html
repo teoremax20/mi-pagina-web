@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -40,10 +39,11 @@
   <section id="contacto">
     <h2>Contacto</h2>
     <form action="https://formsubmit.co/teoremax20@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" required rows="6"></textarea>
       <input type="hidden" name="_captcha" value="false">
-      <input type="text" name="nombre" placeholder="Tu nombre" required />
-      <input type="email" name="email" placeholder="Tu correo" required />
-      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <input type="hidden" name="_next" value="https://teoremax20.github.io/mi-pagina-web/#contacto">
       <button type="submit">Enviar</button>
     </form>
   </section>
@@ -51,7 +51,5 @@
   <footer>
     <p>&copy; 2025 T20. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
